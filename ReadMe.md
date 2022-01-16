@@ -33,3 +33,10 @@ Sınıfları, arayüzleri ve modülleri destekler.<br>
 Küçük scriptler için özel olarak tasarlanmıştır.<br>
 Platformlar arası bir dil.<br>
 Güçlü test iş akışı ve bağımlılık desteği sağlar.
+
+# Node.js Sunucu Çalıştırma
+
+const express = require('express')
+const app = express()
+const port = 3000
+app.listen(port, () => console.log(Port ${port}!)) app.get('/', (req, res) => res.send('Çalıştı!'))
